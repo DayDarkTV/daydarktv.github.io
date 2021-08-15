@@ -12,7 +12,8 @@ h2 {
 .scene {
     position: absolute;
     width: 100vw;
-    height: max-content;
+    height: 100vh;
+    min-height: max-content;
     background: linear-gradient(to top left, #ffc2f5, #c782ff);
     top: 0;
     left: 0;
