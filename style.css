@@ -9,6 +9,26 @@ h2 {
     font-family: 'Baloo Tammudu 2', cursive;
     margin: auto;
 }
+.socialtitle {
+    font-family: 'Kalam', cursive;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+}
+.panel {
+    width: 100%;
+    background: #fff;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+.btn {
+    padding: 0.5rem;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    font-size: 1.125rem;
+}
 .scene {
     position: absolute;
     width: 100vw;
