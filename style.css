@@ -46,8 +46,8 @@ h2 {
 }
 .scene {
     position: absolute;
-    width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 100%;
     background: linear-gradient(to top left, #ffc2f5, #c782ff);
     top: 0;
     left: 0;
@@ -102,4 +102,12 @@ h2 {
 }
 a:link, a:visited {
     color: black;
+}
+#twitch-embed {
+    min-width: 400px;
+    min-height: 300px;
+    aspect-ratio: 16/9;
+    width: 40rem;
+    max-height: 100%;
+    max-width:100%;
 }
